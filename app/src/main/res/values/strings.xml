@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ChoiCancerPainApp</string>
+    <string name="app_name">Choi Cancer Pain Incident Tracker</string>
     <string name="title_activity_main_a8">MainA8Activity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
