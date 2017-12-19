@@ -1,7 +1,139 @@
 <resources>
-    <string name="app_name">Choi Cancer Pain Incident Tracker</string>
-    <string name="title_activity_main_a8">MainA8Activity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">Choi PainSmart Manager</string>
+
+
+    <string-array name="GoalToTreat">
+
+
+        <item>Gardening</item>
+        <item>Driving</item>
+        <item>Go back to work</item>
+        <item>Typing</item>
+        <item>Other:indicate</item>
+
+    </string-array>
+    <string-array name="PastPainTreat">
+
+
+        <item>Surgery</item>
+        <item>Chemotherapy</item>
+        <item>Hormonal therapy</item>
+        <item>Biological response modifier</item>
+        <item>Pharmacologic treatment</item>
+        <item>Use of ice or heat</item>
+        <item>Dry mouth - rinse</item>
+        <item>Mucositis - magic mouthwash</item>
+        <item>Supplemental oxygen</item>
+        <item>Lotions/emollients for dry cracked and/or itchy skin</item>
+        <item>Music therapy</item>
+        <item>Healing touch</item>
+        <item>Meditation</item>
+        <item>Massage</item>
+        <item>Acupuncture</item>
+        <item>Reiki therapy</item>
+        <item>Other:indicate</item>
+
+    </string-array>
+    <string-array name="PainFeelLike">
+
+
+        <item>Spasms</item>
+        <item>Stinging</item>
+        <item>Itching</item>
+        <item>Dull</item>
+        <item>Sharp</item>
+        <item>Achy</item>
+        <item>Shooting</item>
+        <item>Other:indicate</item>
+
+    </string-array>
+
+    <string-array name="PainStart">
+
+
+        <item>After starting cancer treatment</item>
+        <item>After starting any kind of pain treatment</item>
+        <item>Other:indicate</item>
+
+    </string-array>
+
+    <string-array name="Hours">
+
+
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>Other:indicate</item>
+
+    </string-array>
+
+    <string-array name="Minutes">
+
+
+        <item>less than 5</item>
+        <item>5-10</item>
+        <item>11-15</item>
+        <item>16-30</item>
+        <item>31-45</item>
+        <item>Other:indicate</item>
+
+    </string-array>
+
+
+    <string-array name="TypeOfPain">
+
+
+        <item>New pain</item>
+        <item>Chronic pain</item>
+        <item>Breakthrough pain</item>
+
+
+    </string-array>
+    <string-array name="CurrPainTreat">
+
+
+        <item>Surgery</item>
+        <item>Chemotherapy</item>
+        <item>Hormonal therapy</item>
+        <item>Biological response modifier</item>
+        <item>Pharmacologic treatment</item>
+        <item>Use of ice or heat</item>
+        <item>Dry mouth - rinse</item>
+        <item>Mucositis - magic mouthwash</item>
+        <item>Supplemental oxygen</item>
+        <item>Lotions/emollients for dry cracked and/or itchy skin</item>
+        <item>Music therapy</item>
+        <item>Healing touch</item>
+        <item>Meditation</item>
+        <item>Massage</item>
+        <item>Acupuncture</item>
+        <item>Reiki therapy</item>
+        <item>Other:indicate</item>
+
+    </string-array>
+
+    <string-array name="PrefToTreat">
+
+
+        <item>Massage</item>
+        <item>Acupuncture</item>
+        <item>Guided-imagery exercise</item>
+        <item>Distraction</item>
+        <item>Back rubs</item>
+        <item>Vibration</item>
+        <item>Use of ice or heat</item>
+        <item>Dry mouth - rinse</item>
+        <item>Mucositis - magic mouthwash</item>
+        <item>Supplemental oxygen</item>
+        <item>Lotions/emollients for dry cracked and/or itchy skin</item>
+        <item>Music therapy</item>
+        <item>Healing touch</item>
+        <item>Meditation</item>
+        <item>Reiki therapy</item>
+        <item>Other:indicate</item>
+
+    </string-array>
+
 </resources>

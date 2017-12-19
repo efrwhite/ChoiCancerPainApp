@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elizabethwhitebaker.choipainapp17032017.EpisodeA9">
+    <TextView
+        android:id="@+id/textView39E9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='[Here a display of the "painPastTreatment" field.]'
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/button5E9"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36E9" />
+
+    <TextView
+        android:id="@+id/textView36E9"
+        android:layout_width="210dp"
+        android:layout_height="56dp"
+        android:text="Is this your past pain treatment preference?"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/textView39E9"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24E9" />
+
+    <TextView
+        android:id="@+id/textView38E9"
+        android:layout_width="210dp"
+        android:layout_height="56dp"
+        android:text="Is this your current pain treatment preference?"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/textView24E9"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView37E9" />
+
+    <TextView
+        android:id="@+id/textView23E9"
+        android:layout_width="191dp"
+        android:layout_height="52dp"
+        android:text="Is this your preferred pain treatment goal?"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView37E9"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24E9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='[Here a display of the "painTreatmentPref" field.]'
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/textView36E9"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38E9" />
+
+    <TextView
+        android:id="@+id/textView37E9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='[Here a display of the "painTreatmentGoal" field.]'
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView38E9"
+        app:layout_constraintTop_toBottomOf="@+id/textView23E9"
+        app:layout_constraintHorizontal_bias="0.506" />
+
+    <Button
+        android:id="@+id/button5E9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes, please continue"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button6E9"
+        app:layout_constraintTop_toBottomOf="@+id/textView39E9" />
+
+    <Button
+        android:id="@+id/button6E9"
+        android:layout_width="243dp"
+        android:layout_height="72dp"
+        android:text="No, let me update my pain treatment preferences"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5E9" />
+
+</android.support.constraint.ConstraintLayout>

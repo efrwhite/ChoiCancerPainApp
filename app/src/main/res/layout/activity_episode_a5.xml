@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elizabethwhitebaker.choipainapp17032017.EpisodeA5">
+
+    <TextView
+        android:id="@+id/textView27A5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What does your pain feel like?"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/spinner4A5" />
+
+    <Spinner
+        android:id="@+id/spinner4A5"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="228dp"
+        android:layout_height="36dp"
+        android:entries="@array/PainFeelLike"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/editText14A5"
+        app:layout_constraintTop_toBottomOf="@+id/textView27A5" />
+
+    <EditText
+        android:id="@+id/editText14A5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/textView29A5"
+        app:layout_constraintBottom_toTopOf="@+id/textView28A5"
+        app:layout_constraintTop_toBottomOf="@+id/spinner4A5" />
+
+    <TextView
+        android:id="@+id/textView28A5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="When did the pain start?"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/spinner5A5"
+        app:layout_constraintTop_toBottomOf="@+id/editText14A5" />
+
+    <Spinner
+        android:id="@+id/spinner5A5"
+        android:layout_width="308dp"
+        android:layout_height="27dp"
+        android:entries="@array/PainStart"
+        app:layout_constraintBottom_toTopOf="@+id/editText15A5"
+        app:layout_constraintTop_toBottomOf="@+id/textView28A5"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/editText15A5"
+        android:layout_width="207dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/textView30A5"
+        app:layout_constraintBottom_toTopOf="@+id/textView31A5"
+        app:layout_constraintTop_toBottomOf="@+id/spinner5A5" />
+
+    <TextView
+        android:id="@+id/textView29A5"
+        android:layout_width="98dp"
+        android:layout_height="38dp"
+        android:text="Additional pain information"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText"
+        app:layout_constraintRight_toLeftOf="@+id/editText14A5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView28A5"
+        app:layout_constraintTop_toBottomOf="@+id/spinner4A5" />
+
+    <TextView
+        android:id="@+id/textView30A5"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:text="Additional pain information on start"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText"
+        app:layout_constraintRight_toLeftOf="@+id/editText15A5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView31A5"
+        app:layout_constraintTop_toBottomOf="@+id/spinner5A5" />
+
+    <TextView
+        android:id="@+id/textView31A5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How long does the pain last?"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/spinner6A5"
+        app:layout_constraintTop_toBottomOf="@+id/textView30A5" />
+
+    <Spinner
+        android:id="@+id/spinner6A5"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:entries="@array/Hours"
+        app:layout_constraintRight_toLeftOf="@+id/textView32A5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/prevButtonE5"
+        app:layout_constraintTop_toBottomOf="@+id/textView31A5" />
+
+    <Spinner
+        android:id="@+id/spinner7A5"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:entries="@array/Minutes"
+        app:layout_constraintRight_toLeftOf="@+id/textView33A5"
+        app:layout_constraintLeft_toRightOf="@+id/textView32A5"
+        app:layout_constraintBottom_toTopOf="@+id/nextButtonE5"
+        app:layout_constraintTop_toBottomOf="@+id/textView31A5" />
+
+    <TextView
+        android:id="@+id/textView32A5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hours"
+        tools:ignore="HardcodedText"
+        app:layout_constraintRight_toLeftOf="@+id/spinner7A5"
+        app:layout_constraintLeft_toRightOf="@+id/spinner6A5"
+        app:layout_constraintBottom_toTopOf="@+id/prevButtonE5"
+        app:layout_constraintTop_toBottomOf="@+id/textView31A5" />
+
+    <TextView
+        android:id="@+id/textView33A5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minutes"
+        tools:ignore="HardcodedText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/spinner7A5"
+        app:layout_constraintTop_toBottomOf="@+id/editText15A5"
+        app:layout_constraintVertical_bias="0.372" />
+    <Button
+        android:id="@+id/nextButtonE5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+
+        tools:ignore="HardcodedText"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/prevButtonE5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner7A5" />
+
+    <Button
+        android:id="@+id/prevButtonE5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        tools:ignore="HardcodedText"
+        app:layout_constraintRight_toLeftOf="@+id/nextButtonE5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner6A5" />
+
+</android.support.constraint.ConstraintLayout>

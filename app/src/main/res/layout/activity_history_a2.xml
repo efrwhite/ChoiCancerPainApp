@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elizabethwhitebaker.choipainapp17032017.HistoryA2">
+    <CheckBox
+        android:id="@+id/checkBox17"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:text="Uterine Cancer"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox9"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox16"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/checkBox7"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:text="Leukemia"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox8"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox6"
+        app:layout_constraintRight_toLeftOf="@+id/checkBox17"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:text="Kidney Cancer"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox7"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox5"
+        app:layout_constraintRight_toLeftOf="@+id/checkBox16"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:text="Esophageal Cancer"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox6"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox4"
+        app:layout_constraintRight_toLeftOf="@+id/checkBox15"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="0dp"
+        android:layout_height="33dp"
+        android:text="Bladder Cancer"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox2"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintRight_toLeftOf="@+id/checkBox11"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:text="Brain Cancer"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox3"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox"
+        app:layout_constraintRight_toLeftOf="@+id/checkBox12"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:text="Breast Cancer"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox4"
+        app:layout_constraintRight_toLeftOf="@+id/checkBox13"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:text="Cervical Cancer"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox5"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox3"
+        app:layout_constraintRight_toLeftOf="@+id/checkBox14"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:text="Liver Cancer"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox10"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox7"
+        app:layout_constraintRight_toLeftOf="@+id/checkBox9"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_marginRight="16dp"
+        android:text="Other Cancer"
+        app:layout_constraintBottom_toTopOf="@+id/editText4"
+        app:layout_constraintLeft_toRightOf="@+id/checkBox8"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox17"
+        android:layout_marginEnd="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="178dp"
+        android:layout_height="32dp"
+        android:text="Lung Cancer"
+        app:layout_constraintBottom_toTopOf="@+id/prevButtonHA2"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox8"
+        app:layout_constraintRight_toLeftOf="@+id/checkBox18"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginStart="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox11"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:text="Melanoma"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox12"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/checkBox"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:text="Non-Hodgkin Lymphoma"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox13"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox11"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/checkBox2"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox13"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:text="Ovarian Cancer"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox14"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox12"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/checkBox3"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox14"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Pancreatic Cancer"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox15"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox13"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/checkBox4"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox15"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:text="Skin Cancer"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox16"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox14"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/checkBox5"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox16"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:text="Thyroid Cancer"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox17"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox15"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/checkBox6"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox18"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Uterine Cancer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/checkBox17"
+        app:layout_constraintLeft_toRightOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Button
+        android:id="@+id/nextButtonHA2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        app:layout_constraintRight_toLeftOf="@+id/checkBox18"
+        app:layout_constraintLeft_toRightOf="@+id/prevButtonHA2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/prevButtonHA2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        app:layout_constraintRight_toLeftOf="@+id/nextButtonHA2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="345dp"
+        android:layout_height="39dp"
+        android:text="What is your primary cancer diagnosis?"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="If other, type here"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/nextButtonHA2"
+        app:layout_constraintLeft_toRightOf="@+id/checkBox10"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox9" />
+
+
+</android.support.constraint.ConstraintLayout>

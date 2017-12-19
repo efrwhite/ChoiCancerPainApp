@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elizabethwhitebaker.choipainapp17032017.HistoryA7">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView14a7"
+        android:id="@+id/radioGroup"
+        app:layout_constraintRight_toLeftOf="@+id/textView15a7"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton6A7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="No" />
+
+        <RadioButton
+            android:id="@+id/radioButton9A7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Yes" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView11a7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal History of Substance Abuse"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintHorizontal_bias="0.505" />
+
+    <TextView
+        android:id="@+id/textView13a7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Additional Information"
+        android:textSize="14sp"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView11a7"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/radioGroup2" />
+
+    <EditText
+        android:id="@+id/editText10a7"
+        android:layout_width="214dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="If yes, type here"
+        android:inputType="textMultiLine"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toRightOf="@+id/radioGroup2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13a7" />
+
+    <TextView
+        android:id="@+id/textView14a7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Family History of Substance Abuse"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText10a7"
+        app:layout_constraintHorizontal_bias="0.509" />
+
+    <TextView
+        android:id="@+id/textView15a7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Additional Information"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView14a7"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/radioGroup" />
+
+    <EditText
+        android:id="@+id/editText11a7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="If yes, type here"
+        android:inputType="textMultiLine"
+        app:layout_constraintLeft_toRightOf="@+id/radioGroup"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15a7" />
+
+    <TextView
+        android:id="@+id/textView16a7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal History of Childhood Sexual Abuse"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText11a7" />
+
+    <TextView
+        android:id="@+id/textView19a7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Additional Information"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView16a7"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/radioGroup5" />
+
+    <EditText
+        android:id="@+id/editText12a7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="If yes, type here"
+        android:inputType="textMultiLine"
+        app:layout_constraintLeft_toRightOf="@+id/radioGroup5"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19a7" />
+
+    <Button
+        android:id="@+id/nextButtonHA7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/prevButtonHA7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/prevButtonHA7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        app:layout_constraintRight_toLeftOf="@+id/nextButtonHA7"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="-382dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView16a7"
+        app:layout_constraintRight_toLeftOf="@+id/textView19a7"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/radioGroup5">
+
+        <RadioButton
+            android:id="@+id/radioButton7A7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="No" />
+
+        <RadioButton
+            android:id="@+id/radioButton10A7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Yes" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView11a7"
+        app:layout_constraintRight_toLeftOf="@+id/textView13a7"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton8A7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="No" />
+
+        <RadioButton
+            android:id="@+id/radioButton11A7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Yes" />
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>

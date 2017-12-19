@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elizabethwhitebaker.choipainapp17032017.HistoryA6"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/textView17a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you use drugs currently?"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText9a6"
+        android:layout_marginStart="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox34a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alcohol"
+        app:layout_constraintBottom_toBottomOf="@+id/checkBox35a6"
+        app:layout_constraintRight_toLeftOf="@+id/checkBox36a6"
+        app:layout_constraintLeft_toRightOf="@+id/checkBox35a6"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView18a6"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/checkBox35a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nicotine"
+        app:layout_constraintRight_toLeftOf="@+id/checkBox34a6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView18a6" />
+
+    <CheckBox
+        android:id="@+id/checkBox36a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sleeping Pills"
+        app:layout_constraintBottom_toBottomOf="@+id/checkBox34a6"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/checkBox34a6"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView18a6" />
+
+    <CheckBox
+        android:id="@+id/checkBox37a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Other"
+        app:layout_constraintLeft_toLeftOf="@+id/checkBox19a6"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox19a6" />
+
+    <EditText
+        android:id="@+id/editText13a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="If other, type here"
+        android:inputType="textMultiLine"
+        app:layout_constraintLeft_toRightOf="@+id/checkBox21a6"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox34a6" />
+
+    <TextView
+        android:id="@+id/textView18a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If yes, please indicate:"
+        android:textStyle="bold"
+        android:layout_marginTop="31dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView17a6"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView17a6" />
+
+    <TextView
+        android:id="@+id/textView10a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have you used drugs in the past?"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox17a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alcohol"
+        app:layout_constraintRight_toLeftOf="@+id/checkBox20a6"
+        app:layout_constraintLeft_toRightOf="@+id/checkBox19a6"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView12a6" />
+
+    <CheckBox
+        android:id="@+id/checkBox19a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nicotine"
+        app:layout_constraintRight_toLeftOf="@+id/checkBox17a6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView12a6" />
+
+    <CheckBox
+        android:id="@+id/checkBox20a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sleeping Pills"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/checkBox17a6"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView12a6" />
+
+    <CheckBox
+        android:id="@+id/checkBox21a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="16dp"
+        android:text="Other"
+        app:layout_constraintLeft_toLeftOf="@+id/checkBox35a6"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox35a6" />
+
+    <EditText
+        android:id="@+id/editText9a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="If other, type here"
+        android:inputType="textMultiLine"
+        app:layout_constraintLeft_toRightOf="@+id/checkBox37a6"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox17a6" />
+
+    <TextView
+        android:id="@+id/textView12a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If yes, please indicate:"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView10a6"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView10a6" />
+
+
+    <Button
+        android:id="@+id/nextButtonHA6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/prevButtonHA6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/prevButtonHA6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        app:layout_constraintRight_toLeftOf="@+id/nextButtonHA6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <RadioGroup
+        android:id="@+id/RG2A6"
+        android:layout_width="wrap_content"
+
+        android:layout_height="52dp"
+
+        android:layout_weight="1"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toRightOf="@+id/textView10a6"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp">
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="No" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Yes" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/RG1A6"
+        android:layout_width="wrap_content"
+
+        android:layout_height="52dp"
+
+        android:layout_weight="1"
+        app:layout_constraintLeft_toRightOf="@+id/textView17a6"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText9a6">
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="No" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Yes" />
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>

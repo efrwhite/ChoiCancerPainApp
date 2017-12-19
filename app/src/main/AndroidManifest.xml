@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.elizabethwhitebaker.choicancerpainapp">
+    package="com.example.elizabethwhitebaker.choipainapp17032017">
 
     <application
         android:allowBackup="true"
@@ -9,15 +9,41 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".FirstIntro">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".HistoryA1" />
         <activity android:name=".StartPage" />
-        <activity android:name=".HistoryA1"></activity>
+        <activity android:name=".HistoryA2" />
+        <activity android:name=".HistoryA3" />
+        <activity android:name=".HistoryA4" />
+        <activity android:name=".HistoryA5" />
+        <activity android:name=".HistoryA6" />
+        <activity android:name=".HistoryA7" />
+        <activity android:name=".HistoryA8" />
+        <activity android:name=".HistoryTest" />
+        <activity android:name=".EpisodeA1" />
+        <activity android:name=".EpisodeA2" />
+        <activity android:name=".EpisodeA3" />
+        <activity android:name=".EpisodeA4" />
+        <activity android:name=".EpisodeA5" />
+        <activity android:name=".EpisodeA6" />
+        <activity android:name=".EpisodeA6__1" />
+        <activity android:name=".EpisodeA7" />
+        <activity android:name=".EpisodeA8" />
+        <activity android:name=".EpisodeA9" />
+        <activity android:name=".EpisodeA10" />
+        <activity android:name=".EpisodeA11" />
+        <activity android:name=".EpisodeA12" />
+        <activity android:name=".EpisodeE13" />
+        <activity android:name=".EpisodeA14" />
+        <activity android:name=".EpisodeA15" />
+        <activity android:name=".HistoryA1_1" />
+        <activity android:name=".ViewEpisodeData"></activity>
     </application>
 
 </manifest>

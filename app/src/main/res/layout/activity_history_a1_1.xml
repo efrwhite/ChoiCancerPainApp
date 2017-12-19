@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elizabethwhitebaker.choipainapp17032017.HistoryA1_1">
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="261dp"
+        android:layout_height="22dp"
+        android:text="Select your Date of Birth:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/datePicker" />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="348dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center_horizontal"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:spinnersShown="true"
+        android:layout_marginBottom="16dp"
+        android:scrollIndicators="right"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/prevButtonHA11"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+    <Button
+        android:id="@+id/prevButtonHA11"
+        android:layout_width="100dp"
+        android:layout_height="49dp"
+        android:layout_weight="1"
+        android:text="Previous"
+        app:layout_constraintRight_toLeftOf="@+id/nextButtonHA11"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/nextButtonHA11"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Next"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/prevButtonHA11"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/datePicker" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elizabethwhitebaker.choipainapp17032017.HistoryA3">
+
+    <CheckBox
+        android:id="@+id/checkBoxa3"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="Kidney Disease"
+        app:layout_constraintLeft_toLeftOf="@+id/checkBox11a3"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox11a3" />
+
+    <CheckBox
+        android:id="@+id/checkBox2a3"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="Liver Disease"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintLeft_toLeftOf="@+id/checkBox10a3" />
+
+    <CheckBox
+        android:id="@+id/checkBox3a3"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="Heart Disease"
+        app:layout_constraintLeft_toLeftOf="@+id/checkBox12a3"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox12a3" />
+
+    <CheckBox
+        android:id="@+id/checkBox4a3"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="Respiratory Disease"
+        app:layout_constraintLeft_toRightOf="@+id/checkBox11a3"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText"
+        app:layout_constraintHorizontal_bias="0.619"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox10a3" />
+
+    <CheckBox
+        android:id="@+id/checkBox9a3"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="Other"
+        app:layout_constraintLeft_toLeftOf="@+id/checkBoxa3"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxa3" />
+
+    <CheckBox
+        android:id="@+id/checkBox10a3"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="Neurologic Disease"
+        app:layout_constraintLeft_toLeftOf="@+id/checkBox4a3"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2a3" />
+
+    <CheckBox
+        android:id="@+id/checkBox11a3"
+        android:layout_width="150dp"
+        android:layout_height="39dp"
+        android:text="Gastrointestinal Disease"
+        app:layout_constraintLeft_toLeftOf="@+id/checkBox3a3"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox3a3" />
+
+    <CheckBox
+        android:id="@+id/checkBox12a3"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="Endocrine Disease"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintLeft_toLeftOf="@+id/textView5" />
+
+    <EditText
+        android:id="@+id/editText3a3"
+        android:layout_width="162dp"
+        android:layout_height="76dp"
+        android:ems="10"
+        android:hint="Other medical conditions"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
+        app:layout_constraintBaseline_toBaselineOf="@+id/checkBox9a3"
+        app:layout_constraintLeft_toRightOf="@+id/checkBox9a3"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+    <Button
+        android:id="@+id/nextButtonHA3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/prevButtonHA3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText3a3" />
+
+    <Button
+        android:id="@+id/prevButtonHA3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        app:layout_constraintRight_toLeftOf="@+id/nextButtonHA3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText3a3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="Do you have other medical conditions?"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+</android.support.constraint.ConstraintLayout>
